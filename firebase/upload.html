@@ -1,0 +1,29 @@
+<!--upload.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="fh1"> Firebase Web</h1>
+<!--File uploader-->
+<input type="file" id="fileButton"/>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+    // Initialize Firebase with your code
+    var config = {
+        apiKey: "AIzaSyAbURuwyELqr6E8kL_aSBeJ4BFkhVL_sBQ",
+        authDomain: "readdata-8bd64.firebaseapp.com",
+        databaseURL: "https://readdata-8bd64.firebaseio.com",
+        projectId: "readdata-8bd64",
+        storageBucket: "readdata-8bd64.appspot.com",
+        messagingSenderId: "502151905188"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="upload.js"></script>
+
+</body>
+</html>
